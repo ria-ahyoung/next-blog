@@ -3,7 +3,7 @@
   --bg-secondary: #f0f0f0;
 
   --text-primary: black;
-  --text-secondary: #626262;
+  --text-secondary: #3c3c43;
 
   --breakpoints: 1536px;
   --breakpoints-desktop: 1280px;
@@ -26,6 +26,14 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.dark {
+  --bg-primary: #161618;
+  --bg-secondary: #1b1b1f;
+
+  --text-primary: ###deded5;
+  --text-secondary: #98989f;
 }
 
 .container {
