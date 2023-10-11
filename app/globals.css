@@ -5,6 +5,9 @@
   --text-primary: black;
   --text-secondary: #3c3c43;
 
+  --border-primary: #e2e2e3;
+  --border-secondary: #c2c2c4;
+
   --breakpoints: 1536px;
   --breakpoints-desktop: 1280px;
   --breakpoints-tablet: 1024;
@@ -29,11 +32,14 @@ a {
 }
 
 .dark {
-  --bg-primary: #161618;
-  --bg-secondary: #1b1b1f;
+  --bg-primary: #1b1b1f;
+  --bg-secondary: #282a2f;
 
   --text-primary: ###deded5;
   --text-secondary: #98989f;
+
+  --border-primary: #1b1b1f;
+  --border-secondary: #3d3f45;
 }
 
 .container {
